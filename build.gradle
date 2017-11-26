@@ -48,6 +48,9 @@ dependencies {
 
 	// creates task dependency on TestNG test task
 	test.dependsOn testNG
+
+	// https://mvnrepository.com/artifact/pl.pragmatists/JUnitParams
+	testCompile 'pl.pragmatists:JUnitParams:1.1.1'
 }
 
 test {
